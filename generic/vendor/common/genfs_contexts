@@ -66,8 +66,6 @@ genfscon sysfs /devices/platform/soc/0.qcom,rmtfs_sharedmem/uio		u:object_r:vend
 genfscon sysfs /devices/platform/soc/soc:fp_fpc1020                              u:object_r:vendor_sysfs_fingerprint:s0
 genfscon sysfs /devices/virtual/wahoo_laser                             u:object_r:vendor_sysfs_laser:s0
 genfscon sysfs /module/cpu_boost                                        u:object_r:vendor_sysfs_cpu_boost:s0
-genfscon sysfs /devices/virtual/thermal                                 u:object_r:sysfs_thermal:s0
-genfscon sysfs /class/thermal                                           u:object_r:sysfs_thermal:s0
 genfscon sysfs /class/lcd_bias                                          u:object_r:vendor_sysfs_lcd:s0
 genfscon sysfs /module/msm_thermal                                      u:object_r:sysfs_thermal:s0
 genfscon sysfs /devices/platform/battery_current_limit                  u:object_r:sysfs_thermal:s0
